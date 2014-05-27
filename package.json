@@ -1,0 +1,29 @@
+{
+  "name": "issn-verify",
+  "version": "0.1.0",
+  "description": "Verify ISSN (International Standard Serial Number)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "tape": "^2.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "issn"
+  ],
+  "author": "Adam Malantonio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/malantonio/issn-verify"
+  },
+  "bugs": {
+    "url": "https://github.com/malantonio/issn-verify/issues"
+  },
+  "homepage": "https://github.com/malantonio/issn-verify"
+}
