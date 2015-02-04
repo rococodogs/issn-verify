@@ -1,5 +1,7 @@
 # issn-verify
 
+[![Build Status](https://travis-ci.org/malantonio/issn-verify.svg)](https://travis-ci.org/malantonio/issn-verify)
+
 checks if an issn number is valid with regex and by confirming the check digit. regex and algorithm via [http://en.wikipedia.org/wiki/International\_Standard\_Serial\_Number](http://en.wikipedia.org/wiki/International_Standard_Serial_Number)
 
 ## usage
