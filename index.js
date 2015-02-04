@@ -1,4 +1,8 @@
-module.exports = function issn(input) {
+if ( module && typeof module.exports !== 'undefined' ) {
+    module.exports = issnVerify;
+}
+
+function issnVerify(input) {
     var reg = /^\d{4}\-?\d{3}[\dX]$/
       , check
       , num
@@ -8,7 +12,7 @@ module.exports = function issn(input) {
         input = pad(input);
     }
 
-    if ( !input.match(reg) ) { 
+    if ( !input.match(reg) ) {
         return false;
     }
 
@@ -26,7 +30,7 @@ module.exports = function issn(input) {
 
     if ( check == 10 ) {
         check = "X";
-    } 
+    }
 
     return check == input.substr(-1);
 }
