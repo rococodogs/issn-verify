@@ -1,8 +1,8 @@
 {
   "name": "issn-verify",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Verify ISSN (International Standard Serial Number)",
-  "main": "index.js",
+  "main": "issnVerify.js",
   "directories": {
     "test": "test"
   },

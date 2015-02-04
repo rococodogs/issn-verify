@@ -1,5 +1,5 @@
 var test = require('tape');
-var issn = require('../');
+var issn = require('../issnVerify');
 
 test('returns false for non-matching numbers', function(t) {
     t.notOk(issn('000000000'));
