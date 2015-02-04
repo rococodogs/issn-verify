@@ -6,10 +6,10 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {
-    "tape": "^2.13.1"
+  "dependencies": {},
+  "devDependencies": {
+    "tape": "~3.0.2"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "node test/test.js"
   },
